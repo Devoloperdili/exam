@@ -1,0 +1,74 @@
+body{
+    min-height: 500vh;
+}
+.colection{
+    width: 50%;
+    display: flex;
+}
+.btn{
+    padding: 10px 10px;
+    border: 1px solid gray;
+}
+.rrr{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.sinchona{
+    display: flex;
+    gap: 100px;
+}
+.btn5{
+    width: 100px;
+    height: 40px;
+    background-color: #C8102E;
+    color: #FFF4E4;
+    border: none;
+    border-radius: 4px;
+}
+.klava{
+    display: flex;
+    gap: 40px;
+}
+.nnn{
+    display: flex;
+    gap: 40px;
+}
+.rrtt{
+    width: 100%;
+    height: 500px;
+    background: #F5F6F7;
+}
+.rdrd{
+    text-align: center;
+    border-bottom: 1px solid #E6EBF0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.rdrd:last-child{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:990px) {
+    .home img{
+        width: 90%;
+    }
+}
